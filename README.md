@@ -7,7 +7,7 @@ In this internship we work on to develop the Front-end similar to the CoinToolAp
 Step to Run the project:
 1. Clone the project.
 2. Ensure all the files are downloaded properly.
-3. Ensure you have updated version of html,css and bootstrap.
+3. Ensure you have the latest version of html, css and bootstrap.
 4. Change directory to dashboard and run the index.html file.
 5. You will able to see the website.
 6. If there are some error while loading any page please check whether the reference path assigned are correct or you have changed.
