@@ -9,8 +9,7 @@ Step to Run the project:
 2. Ensure all the files are downloaded properly.
 3. Ensure you have the latest version of html, css and bootstrap.
 4. Change directory to dashboard and run the index.html file.
-5. You will able to see the website.
-6. If there are some error while loading any page please check whether the reference path assigned are correct or you have changed.
+5. You will able to view the website.
 ---------------------------------------------------------------------------------------
 Team Members:
 1. Parth Dali(Team Leader): LinkedIn:- https://www.linkedin.com/in/parth-dali-099a68182/ , Github:- https://github.com/parthd06
