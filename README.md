@@ -16,4 +16,4 @@ Team Members:
 1. Parth Dali(Team Leader): LinkedIn:- https://www.linkedin.com/in/parth-dali-099a68182/ , Github:- https://github.com/parthd06
 2. Mahek Desai: LinkedIn:- https://www.linkedin.com/in/mahek-desai , GitHub:- https://github.com/mahek14
 3. Selina Ger: LinkedIn: https://linkedin.com/in/selina-ger-0ba5221b8 , Github: https://github.com/selina-22/
-4. Dion Chettiar: LinkedIn - linkedin.com/in/dion-chettiar-34ab14218  , Github - 
+4. Dion Chettiar: LinkedIn - https://linkedin.com/in/dion-chettiar-34ab14218  , Github - https://github.com/Dion-Chettiar
