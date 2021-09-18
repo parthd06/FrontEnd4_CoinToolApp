@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Dashboard - CoinTool</title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/fontawesome.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/brands.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/solid.css">
+    <script defer src="../fontawesome-free-5.15.4-web/js/all.js"></script>
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div> 
+                    <a href="../dashboard/index.html" class="nav_logo"> <i class='bx bxl-bitcoin'></i>
+                        <span class="nav_logo-name">CoinToolApp</span>
+                    </a>
+                    <div class="nav_list"> 
+                        <a href="../dashboard/index.html" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i>
+                            <span class="nav_name">Dashboard</span>
+                        </a> 
+                        <a href="../binancepage/index.html" class="nav_link"><i class='bx bx-bitcoin'></i>
+                            <span class="nav_name">Binance</span>
+                        </a> 
+                        <a href="../etherumpage/index.html" class="nav_link"> <i class='bx bxs-diamond' ></i> 
+                            <span class="nav_name">Etherum</span>
+                        </a> 
+                        <a href="../fantompage/index.html" class="nav_link"> <i class='bx bxs-box'></i> 
+                          <span class="nav_name">Fantom</span>
+                        </a>
+                        <a href="../hecopage/index.html" class="nav_link"> <i class='bx bxs-droplet'></i>
+                          <span class="nav_name">Heco</span>
+                        </a>
+                        <a href="../polygonpage/index.html" class="nav_link"> <i class='bx bxs-polygon'></i>
+                          <span class="nav_name">Polygon</span>
+                        </a>   
+                    </div>
+                </div> 
+            </nav>
+        </div>
+        <!--Container Main start-->
+        <div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="card introcoin">
+                        <img src="./images/bitcoin_logo.png" class="coins_logo" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BTC/USD</h5>
+                        <p class="card-text">$ 47,552.8</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <div class="card introcoin">
+                      <img src="./images/etherum.png" class="coins_logo" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ETH/USD</h5>
+                      <p class="card-text">$ 3,442.41</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="card introcoin">
+                        <img src="./images/binance-coin-bnb-logo.png" class="coins_logo" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">BNB/USD</h5>
+                        <p class="card-text">$ 412.00</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="card introcoin">
+                        <img src="./images/Dogecoin_Logo.png" class="coins_logo" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">DOGE/USD</h5>
+                        <p class="card-text">$ 0.242</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="card introcoin">
+                        <img src="./images/solana.png" class="coins_logo" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">SOL/USD</h5>
+                        <p class="card-text">$ 143.01
+                        </p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="card introcoin">
+                        <img src="./images/matic.png" class="coins_logo" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">MATIC/USD</h5>
+                        <p class="card-text">$ 1.365</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <!-- 3 card create token locker, token batch sender, new tools start-->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Create Token Locker</h5>
+                        <div class="row">
+                            <div class="col-lg col-6">
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                      <img class="inside_logo" src="./images/etherum.png" alt="">
+                                      ETH (ERC20)
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg col-6">
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                      <img class="inside_logo" src="./images/binance-coin-bnb-logo.png" alt="">
+                                      <span>BSC (BEP20)</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg col-6">
+                              <div class="card-footer">
+                                  <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                    <img class="inside_logo" src="./images/hicologo.png" alt="">
+                                    HEC (HRC20)
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="col-lg col-6">
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                      <img class="inside_logo" src="./images/okex_logo.png" alt="">
+                                      OKT (OEC20)
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg col-6">
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                      <img class="inside_logo" src="./images/poladot.png" alt="">
+                                      <span>DOT (DOT20)</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg col-6">
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                      <img class="inside_logo" src="./images/ada_logo.png" alt="">
+                                      <span>ADA (ADA20)</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                </div>
+
+                <!-- second card of Token Batch -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Token Batch Sender</h5>
+                      <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/etherum.png" alt="">
+                                  ETH (ERC20)
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/binance-coin-bnb-logo.png" alt="">
+                                  <span>BSC (BEP20)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/poladot.png" alt="">
+                                  <span>DOT (DOT20)</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/hicologo.png" alt="">
+                                  HEC (HRC20)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/okex_logo.png" alt="">
+                                  <span>OKT (OEC20)</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/ada_logo.png" alt="">
+                                  <span>ADA (ADA20)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- third card of tools -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">New Tools</h5>
+                      <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <i class='bx bxs-lock bx-xs'></i>
+                                  Token Locker
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <i class='bx bxs-wallet bx-xs'></i>
+                                  <span>Check Balance</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <i class='bx bxs-gas-pump bx-xs'></i>
+                                  <span>Gas Price</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <i class='bx bxs-vector bx-xs'></i>
+                                  Token Collector
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <i class='bx bxs-donate-heart bx-xs'></i>
+                                  <span>Donate</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-6">
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                  <img class="inside_logo" src="./images/chain_list.png" alt="">
+                                  <span>Chain List</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+
+            <!-- cards overview , feedback and contact us -->
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Overview</h5>
+                      <p class="context">Welcome to join us. This website is a convenient blockchain tool for the majority of cryptocurrency enthusiasts to meet various needs. Is everyone's favorite tool person!</p> 
+                      <h4 style="text-align: center;">CoinTool.App</h4>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- second card of Token Batch -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">FeedBack</h5>
+                    <div class="row">
+                      <div class="col-lg col-6">
+                          <div class="card-footer">
+                            <span>If you have the following conditions, please give us a feedback</span>
+                          </div>
+                      </div>
+                  </div>
+                    <ol class="context">
+                      <li>You have questions about the use of the tool</li>
+                      <li>There is an unknown problem with the tool</li>
+                      <li>The tool fails to meet your needs</li>
+                      <li>Have better ideas and ideas</li>
+                      <li>Other issues</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+              <!-- third card of tools -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Us</h5>
+                  <div class="row">
+                      <div class="col-lg col-6">
+                          <div class="card-footer">
+                              <a href="#" class="btn btn-outline-dark btn-icon-right">
+                                <i class='bx bx-mail-send' style='color:#f62323'  ></i>
+                                <span>cointools@outlook.com</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg col-6">
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-outline-dark btn-icon-right">
+                              <i class='bx bxl-telegram' style='color:#23a3f6'  ></i>
+                              <span>https://t.me/cointool</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+
+
+
+
+        </div>
+        <!--Container Main end-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
+

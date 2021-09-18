@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Etherum</title>
+</head>
+<body>
+    <div class="container">
+        <div class="myCard">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left">
+                        <form class="myForm text-center">
+                            <header>Create Token</header>
+                            <div class="form-group">
+                                <label for="">Token Name</label>
+                                <input type="text" class="myInput" placeholder="Token Name" id="token" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Symbol</label>
+                                <input type="text" class="myInput" placeholder="Eg. GLT" id="symbol" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Initial Supply</label>
+                                <input type="number" class="myInput" value="21000000" name="" id="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Decimal</label>
+                                <input type="number" class="myInput" placeholder="1 to 18" min="1" max="18" name="" id="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Other Config</label>
+                                <input type="checkbox"  name= id=""><label for="">Can Burn</label>
+                                <input type="checkbox"  name= id=""><label for="">Can Mint</label><br>
+                                <input type="checkbox"  name= id=""><label for="">Can Pause</label>
+                                <input type="checkbox"  name= id=""><label for="">Blacklist</label>
+                            </div>
+                            <input type="submit" class="butto" value="Create Token">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right">
+                        <div class="box">
+                            <header>Create ERC20 Token</header>
+                            <p>Simple, Fast, Convenient
+                                No programming skills required
+                                Get 100% ownership of generated tokens
+                                Custom token name, symbol and initial supply
+                                Automatic verified and published contract source code</p>
+                                <button value="ETH" class="but" onclick="window.location.href='eth.html'">ETH</button>
+                                <button value="BSC" class="but" onclick="window.location.href='bsc.html'">BSC</button>
+                                <button value="HECO" onclick="window.location.href='HECO.html'" class="but">HECO</button>
+                                <button value="Fantom" class="but" onclick="window.location.href='Fantom.html'">Fantom</button>
+                                <button value="Polygon" class="but" onclick="window.location.href='Polygon.html'">Polygon</button>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

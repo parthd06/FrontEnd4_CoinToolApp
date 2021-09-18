@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.right{
+    position: relative;
+    background-image: linear-gradient(45deg,#6a35fa,#1139bb);
+    border-radius: 25px;
+    height: 502px;
+    padding: 25px;
+    color: rgb(235, 235, 236);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    position: relative;
+    background: rgb(143, 181, 231);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+.left header{
+    color: blue;
+    font-size: 24px;
+    font-weight : 700px;
+    margin-bottom:20px
+}
+.right header{
+    color: #fff;
+    font-size: 44px;
+}
+.row{
+    height: 100%;
+}
+.myCard{
+    position: relative;
+    background: rgb(143, 181, 231);
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+label{
+    float:none;
+}
+.left .myInput{
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.left .myInput:focus{
+    outline: none;
+}
+.myForm{
+    position: relative;
+    margin-top: 50px;
+}
+.left .butto{
+    background: linear-gradient(45deg,#6a35fa,#1139bb);
+    color: #fff;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.left .butto:hover{
+    background: linear-gradient(45deg,#4c10f1,#0640fc);
+}
+
+.but{
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+.but:hover{
+    background: linear-gradient(45deg,#b69cfc,#4b5885);
+}
+
