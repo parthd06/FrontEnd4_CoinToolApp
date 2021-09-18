@@ -1,6 +1,5 @@
 # FrontEnd4_CoinToolApp
 Cointool is a virtual cryptocurrency tracking website. 
-Cointool App is a Cointool Token Generator platform script to build a Cointool Token in less than a minute with the new Smart Contract Generator for Cointool Token. 
 Cointool app is a simple decentralized application (DApp) that allows you to easily deliver Smart Contract for a Standard, Mintable, Capped, Burnable Cointool Token. 
 It is  simple, fast and convenient.
 In this internship we work on to develop the Front-end similar to the CoinToolApp website. The team learned various technologies during the internship and everyone contributed to the project.
