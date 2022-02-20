@@ -1,8 +1,10 @@
 # FrontEnd4_CoinToolApp
+
 Cointool is a virtual cryptocurrency tracking website. 
 Cointool app is a simple decentralized application (DApp) that allows you to easily deliver Smart Contract for a Standard, Mintable, Capped, Burnable Cointool Token. 
 It is  simple, fast and convenient.
 In this internship we work on to develop the Front-end similar to the CoinToolApp website. The team learned various technologies during the internship and everyone contributed to the project.
+
 --------------------------------------------------------------------------------------
 Step to Run the project:
 1. Clone the project.
